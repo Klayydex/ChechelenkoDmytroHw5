@@ -17,6 +17,7 @@
                     Автомаркет
                 </h2>
             </a>
+            <hr>
             <nav class="nav__wrap">
                 <ul class="nav__list">
                     <li class="nav__item">
@@ -30,18 +31,43 @@
                     </li>
                 </ul>
             </nav>
+            <hr>
         </header>
         <div class="main">
-            <div class="menu-wrap">
-                <h2 class="menu-wrap__heading">Регистрация</h2>
-                <form class="menu-login">
-                    <div>
-                        <input type="email" autocomplete="email" placeholder="Почта" class="menu__item">
-                    </div>
-                    <div>
-                        <input type="password" autocomplete="current-password" placeholder="Пароль" class="menu__item">
-                    </div>
-                    <button type="submit" class="menu__button">Войти</button>
+            <div class="main-wrap">
+                <h2 class="main-wrap__heading">Регистрация</h2>
+                <form class="main-login" method="post" action="https://fom.in.ua/echo">
+                    <p class="main__text">
+                        <label>Имя:</label><br>
+                        <input type="email" placeholder="Имя" name="Имя" class="main__item" required>
+                    </p>
+                    <p class="main__text">
+                        <label>Фамилия:</label><br>
+                        <input type="email" placeholder="Фамилия" name="Фамилия" class="main__item" required>
+                    </p>
+                    <p class="main__text">
+                        <label>Укажите возраст:</label><br>
+                        <input type="date" name="date" min="1970-01-01" max="2024-01-01" class="main__item" required/>
+                    </p>
+                    <p class="main__text">
+                        <label>Email:</label><br>
+                        <input type="email" autocomplete="email" placeholder="Почта" name="Почта" class="main__item" required>
+                    </p>
+                    <p class="main__text">
+                        <label>Телефон</label><br>
+                        <input type="tel" placeholder="Телефон" class="main__item" name="Телефон" required>
+                    </p>
+                    <p class="main__text">
+                        <label>Пароль:</label><br>
+                        <input type="password" autocomplete="current-password" placeholder="Пароль" class="main__item" name="password" required>
+                    </p>
+                    <p class="main__text">
+                        <label>Повторите пароль:</label><br>
+                        <input type="password" autocomplete="current-password" placeholder="Пароль" class="main__item" name="password" required>
+                    </p>
+                    <p class="main__text">
+                        <button type="submit" class="main__button">Войти</button>
+                    </p>
                 </form>
             </div>
         </div>
