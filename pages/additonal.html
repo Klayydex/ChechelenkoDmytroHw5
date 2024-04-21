@@ -21,18 +21,45 @@
             <nav class="nav__wrap">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Регистрация</a>
+                        <a href="../index.html" class="nav__link">Регистрация</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Главная</a>
+                        <a href="home.html" class="nav__link">Главная</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Поиск</a>
+                        <a href="search.html" class="nav__link">Поиск</a>
                     </li>
                 </ul>
             </nav>
             <hr>
         </header>
+        <div class="main">
+            <div class="main-wrap">
+                <h2 class="main-wrap__heading">Авторизация</h2>
+                <form class="main-login" method="post" action="https://fom.in.ua/echo">
+                    <p class="main__text">
+                    <p class="main__text">
+                        <label>Email:</label><br>
+                        <input type="email" autocomplete="email" placeholder="Почта" name="Почта" class="main__item" required>
+                    </p>
+                    <p class="main__text">
+                        <label>Пароль:</label><br>
+                        <input type="password" autocomplete="current-password" placeholder="Пароль" class="main__item" name="password" required>
+                    </p>
+                    <p class="main__text">
+                        <label>Повторите пароль:</label><br>
+                        <input type="password" autocomplete="current-password" placeholder="Пароль" class="main__item" name="password" required>
+                    </p>
+                    <p class="main__text">
+                        <input type="checkbox" name="Save password" required >
+                        Запомнить пароль
+                    </p>
+                    <p class="main__text">
+                        <button type="submit" class="main__button">Войти</button>
+                    </p>
+                </form>
+            </div>
+        </div>
     </div>
 </body>
 </html>
