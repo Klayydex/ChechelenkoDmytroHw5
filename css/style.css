@@ -5,14 +5,55 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 .wrapper {
-    width: 60%;
+    width: 80%;
     margin: 20px auto;
+}
+
+.header,
+.main {
+    width: 95%;
+    margin: 20px auto;
+    padding: 10px 3%;
     background-color: rgb(100, 105, 90);
-    padding: 2px 3%;
     border-radius: 10px;
+}
+
+.siteLogo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.siteLogo__heading {
+    margin: 50px 15%;
+    color: rgb(59, 59, 59);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.horizontal {
+    margin:10px 0;
+    border-top: 1px solid grey;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+}
+
+.nav__item {
+    padding: 10px;
+    background-color: rgb(117, 133, 87);
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.nav__item:hover {
+    background-color: rgb(100, 105, 90);
+    transition: .3s all;
 }
 
 .menu-wrap__heading {
