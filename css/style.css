@@ -1,0 +1,52 @@
+body {
+    background: url(../images/car_bg.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 20px auto;
+    background-color: rgb(100, 105, 90);
+    padding: 2px 3%;
+    border-radius: 10px;
+}
+
+.menu-wrap__heading {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.menu-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__item {
+    display: inline-block;
+    width: 27.5%;
+    padding: 9px 10px;
+    margin: 0;
+    border: 1px solid rgb(62, 65, 56);
+    background-color: rgb(117, 133, 87);
+    color: #212121;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px #212121
+}
+
+.menu__button {
+    width: 27.5%;
+    padding: 10px 10px;
+    background-color: rgb(62, 65, 56);
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+    cursor: pointer;
+}
