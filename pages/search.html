@@ -37,7 +37,8 @@
         </header>
         <div class="main">
             <form class="main-login" method="post" action="https://fom.in.ua/echo">
-                <p class="main__text"><span class="spec">Поиск</span></p>
+                <p class="main__text"><span class="spec">Поиск:</span></p>
+                <hr>
                 <p class="main__text"><input type="checkbox" name="С проверенным VIN-кодом">
                     С проверенным VIN-кодом</p>
                 <p class="main__text"><input type="checkbox" name="Государственный номер">
@@ -426,16 +427,30 @@
                 </select>
             </p>
             <p class="main__text">
-                <label class="main__info">Тип кузова:</label>
+                <label class="main__info">Тип кузова</label>
                 <input type="checkbox"name="Тип кузова">Универсал
                 <input type="checkbox"name="Седан">Седан
                 <input type="checkbox"name="Хетчбек">Хетчбек
+            </p>
+            <p class="main__text">
+                <label class="main__info"></label>
                 <input type="checkbox"name="Кроссовер">Кроссовер
                 <input type="checkbox"name="Купе">Купе
                 <input type="checkbox"name="Кабриолет">Кабриолет
+            </p>
+            <p class="main__text">
+                <label class="main__info"></label>
                 <input type="checkbox"name="Минивен">Минивен
                 <input type="checkbox"name="Пикап">Пикап
                 <input type="checkbox"name="Лимузин">Лимузин
+            </p>
+            <p class="main__text">
+                <label class="main__info">Цвет кузова</label>
+                <input type="color" name="Цвет">
+            </p>
+            <p class="main__text">
+                <label class="main__info"></label>
+                <button type="submit" class="main__button">Поиск</button>
             </p>
             </form>
         </div>
