@@ -147,3 +147,9 @@ hr {
     width: auto;
     height: 90px;
 }
+/* ----------- */
+
+.main__info {
+    display: inline-block;
+    width: 20%;
+}
