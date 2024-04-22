@@ -19,7 +19,8 @@ hr {
 }
 
 .header,
-.main {
+.main,
+.footer {
     width: 95%;
     margin: 20px auto;
     padding: 10px 3%;
@@ -130,4 +131,18 @@ hr {
 .spec {
     font-size: 24px;
     font-weight: bold;
+}
+/* ------------ */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid #2b2b2b;
+}
+
+.footer__image {
+    margin: 5px;
+    width: auto;
+    height: 90px;
 }
