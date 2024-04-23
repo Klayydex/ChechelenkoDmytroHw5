@@ -40,11 +40,11 @@
                 <p class="main__text"><span class="spec">Поиск:</span></p>
                 <hr>
                 <p class="main__text"><input type="checkbox" name="С проверенным VIN-кодом">
-                    С проверенным VIN-кодом</p>
+                    <span class="mod">С проверенным VIN-кодом</span></p>
                 <p class="main__text"><input type="checkbox" name="Государственный номер">
                     Государственный номер</p>
                 <p class="main__text"><input type="checkbox" name="Впервые на Automarket">
-                    Впервые на Automarket</p>
+                    <span class="add">Впервые на Automarket</span></p>
                 <p class="main__text"><input type="checkbox" name="Электрокары">
                     Электрокары</p>
                 <p class="main__text">
@@ -374,19 +374,43 @@
             </p>
             <p class="main__text">
                 <label class="main__info">Цена:</label>
-                <input class="main__item" type="tel" pattern="[0-9]" name="Цена от" placeholder="От">
-            </p>
-            <p class="main__text">
-                <label class="main__info"></label>
-                <input class="main__item" type="tel" pattern="[0-9]" name="Цена до" placeholder="До">
-            </p>
-            <p class="main__text">
-                <label class="main__info"></label>
-                <select class="main__item" name="Валюта">
+                <input class="main__item--spec" type="tel" pattern="[0-9]" name="Цена от" placeholder="От:">
+                <input class="main__item--spec" type="tel" pattern="[0-9]" name="Цена до" placeholder="До:">
+                <select class="main__item--spec" name="Валюта">
                     <option value="1">$</option>
                     <option value="2">€</option>
                     <option value="3">₴</option>
                 </select>
+            </p>
+            <p class="main__text">
+                <label class="main__info">Авто не в Украине (под заказ):</label>
+                <span class="main__text--mod">
+                    <input type="radio" name="group1">
+                    Все
+                </span>
+                <span class="main__text--mod">
+                    <input type="radio" name="group1">
+                    Показать
+                </span>
+                <span class="main__text--mod">
+                    <input type="radio" name="group1">
+                    Спрятать
+                </span>
+            </p>
+            <p class="main__text">
+                <label class="main__info">Неразтоможенные:</label>
+                <span class="main__text--mod">
+                    <input type="radio" name="group2">
+                    Все
+                </span>
+                <span class="main__text--mod">
+                    <input type="radio" name="group2">
+                    Показать
+                </span>
+                <span class="main__text--mod">
+                    <input type="radio" name="group2">
+                    Спрятать
+                </span>
             </p>
             <p class="main__text">
                 <label class="main__info">Участие в ДТП:</label>
