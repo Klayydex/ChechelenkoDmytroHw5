@@ -39,17 +39,17 @@
             <form class="main-login" method="post" action="https://fom.in.ua/echo">
                 <p class="main__text"><span class="spec">Поиск:</span></p>
                 <hr>
-                <p class="main__text"><input type="checkbox" name="С проверенным VIN-кодом">
+                <p class="main__text"><input type="checkbox" name="with verified vin-code">
                     <span class="mod">С проверенным VIN-кодом</span></p>
-                <p class="main__text"><input type="checkbox" name="Государственный номер">
+                <p class="main__text"><input type="checkbox" name="government number">
                     Государственный номер</p>
-                <p class="main__text"><input type="checkbox" name="Впервые на Automarket">
+                <p class="main__text"><input type="checkbox" name="for the first time on automarket">
                     <span class="add">Впервые на Automarket</span></p>
-                <p class="main__text"><input type="checkbox" name="Электрокары">
+                <p class="main__text"><input type="checkbox" name="electric cars">
                     Электрокары</p>
                 <p class="main__text">
                     <label class="main__info">Тип транспотра</label>
-                    <select class="main__item" name="Тип транспотра">
+                    <select class="main__item" name="type of transport">
                         <option value="0">Все типы транспорта</option>
                         <option value="1">Легковые</option>
                         <option value="2">Мото</option>
@@ -65,7 +65,7 @@
                 </p>
                 <p class="main__text">
                     <label class="main__info">Страна производитель</label>
-                    <select class="main__item" name="Страна производитель">
+                    <select class="main__item" name="manufacturer country">
                         <option value="0">Выберите страну</option>
                         <option value="1">Германия</option>
                         <option value="2">Япония</option>
@@ -96,7 +96,7 @@
                 </p>
                 <p class="main__text">
                     <label class="main__info">Марка машины</label >
-                    <select class="main__item" name="Марка машины">
+                    <select class="main__item" name="car make">
                         <option value="0">Выберите марку</option>
                         <option value="1">Mercedes-Benz</option>
                         <option value="2">Jeep</option>
@@ -113,7 +113,7 @@
                 <p class="main__text">
 
                     <label class="main__info">Год от:</label>
-                    <select class="main__item" name="Год от">
+                    <select class="main__item" name="year from">
                         <option value="0">Год от</option>
                         <option value="124">2024</option>
                         <option value="123">2023</option>
@@ -244,7 +244,7 @@
                 
                 <p class="main__text">
                 <label class="main__info">Год до:</label>
-                <select class="main__item" name="Год до">
+                <select class="main__item" name="year before">
                     <option value="0">Год до</option>
                     <option value="124">2024</option>
                     <option value="123">2023</option>
@@ -374,9 +374,9 @@
             </p>
             <p class="main__text">
                 <label class="main__info">Цена:</label>
-                <input class="main__item--spec" type="tel" pattern="[0-9]" name="Цена от" placeholder="От:">
-                <input class="main__item--spec" type="tel" pattern="[0-9]" name="Цена до" placeholder="До:">
-                <select class="main__item--spec" name="Валюта">
+                <input class="main__item--spec" type="tel" pattern="[0-9]" name="price from" placeholder="От:">
+                <input class="main__item--spec" type="tel" pattern="[0-9]" name="price up to" placeholder="До:">
+                <select class="main__item--spec" name="currency">
                     <option value="1">$</option>
                     <option value="2">€</option>
                     <option value="3">₴</option>
@@ -414,7 +414,7 @@
             </p>
             <p class="main__text">
                 <label class="main__info">Участие в ДТП:</label>
-                <select class="main__item" name="ДТП">
+                <select class="main__item" name="road accident">
                     <option value="1">Не указано</option>
                     <option value="2">Был в ДТП</option>
                     <option value="3">Не был в ДТП</option>
@@ -422,7 +422,7 @@
             </p>
             <p class="main__text">
                 <label class="main__info">Техническое состояние:</label>
-                <select class="main__item" name="Техническое состояние">
+                <select class="main__item" name="technical condition">
                     <option value="0">Не указано</option>
                     <option value="1">Полностью неповрежден</option>
                     <option value="2">Профессионально отремонтированные повреждения</option>
@@ -432,7 +432,7 @@
             </p>
             <p class="main__text">
                 <label class="main__info">Топливо:</label>
-                <select class="main__item" name="Топливо">
+                <select class="main__item" name="fuel">
                     <option value="0">Бензин</option>
                     <option value="1">Газ</option>
                     <option value="2">Дизель</option>
@@ -442,7 +442,7 @@
             </p>
             <p class="main__text">
                 <label class="main__info">КПП:</label>
-                <select class="main__item" name="КПП">
+                <select class="main__item" name="transmission">
                     <option value="0">Ручная/Механика</option>
                     <option value="1">Автомат</option>
                     <option value="2">Типтроник</option>
@@ -452,25 +452,25 @@
             </p>
             <p class="main__text">
                 <label class="main__info">Тип кузова</label>
-                <input type="checkbox"name="Тип кузова">Универсал
-                <input type="checkbox"name="Седан">Седан
-                <input type="checkbox"name="Хетчбек">Хетчбек
+                <input type="checkbox"name="body type">Универсал
+                <input type="checkbox"name="sedan">Седан
+                <input type="checkbox"name="hatchback">Хетчбек
             </p>
             <p class="main__text">
                 <label class="main__info"></label>
-                <input type="checkbox"name="Кроссовер">Кроссовер
-                <input type="checkbox"name="Купе">Купе
-                <input type="checkbox"name="Кабриолет">Кабриолет
+                <input type="checkbox"name="crossover">Кроссовер
+                <input type="checkbox"name="coupe">Купе
+                <input type="checkbox"name="cabriolet">Кабриолет
             </p>
             <p class="main__text">
                 <label class="main__info"></label>
-                <input type="checkbox"name="Минивен">Минивен
-                <input type="checkbox"name="Пикап">Пикап
-                <input type="checkbox"name="Лимузин">Лимузин
+                <input type="checkbox"name="minivan">Минивен
+                <input type="checkbox"name="pickup">Пикап
+                <input type="checkbox"name="limousine">Лимузин
             </p>
             <p class="main__text">
                 <label class="main__info">Цвет кузова</label>
-                <input type="color" name="Цвет">
+                <input type="color" name="color">
             </p>
             <p class="main__text">
                 <label class="main__info"></label>
