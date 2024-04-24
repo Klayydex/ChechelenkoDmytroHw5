@@ -15,7 +15,7 @@ a {
 
 hr {
     border: 1px solid rgb(59, 65, 59);
-    margin: 10px;
+    margin: 10px 1%;
 }
 
 .header,
@@ -47,7 +47,7 @@ hr {
 }
 
 .nav__item {
-    padding: 10px;
+    padding: 10px 1%;
     background-color: rgb(117, 133, 87);
     border: 1px solid black;
     border-radius: 3px;
@@ -84,7 +84,7 @@ hr {
 .main__item--spec,
 .main__text--mod {
     display: inline-block;
-    padding: 9px 10px;
+    padding: 9px 1%;
     margin: 0;
     border: 1px solid rgb(62, 65, 56);
     background-color: rgb(117, 133, 87);
@@ -99,7 +99,7 @@ hr {
 
 .main__button {
     width: 27.5%;
-    padding: 10px 10px;
+    padding: 10px 1%;
     background-color: rgb(62, 65, 56);
     border: 1px solid black;
     border-radius: 4px;
@@ -117,7 +117,7 @@ hr {
 /* ------------- */
 
 .main__image {
-    margin: 5px;
+    margin: 5px 0.5%;
     float: left;
 }
 
@@ -138,12 +138,12 @@ hr {
 .footer {
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 10px 1%;
     border: 1px solid #2b2b2b;
 }
 
 .footer__image {
-    margin: 5px;
+    margin: 5px 0.5%;
     width: auto;
     height: 90px;
 }
@@ -166,4 +166,3 @@ hr {
     margin-bottom: 10px;
     text-indent: 0px;
 }
-
